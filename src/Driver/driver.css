@@ -1,0 +1,81 @@
+.capsule{
+  border-radius: 25px;  
+  padding: 5px 15px;
+  color: #fff;
+}
+
+.addUser{
+  background-color: #3E74D5;
+  cursor: pointer;
+}
+
+.driverCard{
+  display: grid;
+  grid-template-columns: 60px auto auto;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  padding: 10px 0px;
+}
+
+.status{
+  border-radius: 25px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+.status.active{
+  background-color: green;
+}
+
+.status.inactive{
+  background-color: red;
+}
+
+img {
+  width: 40px;
+  border-radius: 25px;
+  margin: 0 auto;
+  display: block;
+}
+
+.driverCard .info{
+  grid-column: 2 / 4;
+}
+
+.driverCard .name{
+  font-weight: bold;
+  display: block;
+}
+
+.tasks{
+  grid-column: 2 / 3;
+}
+
+.actions{
+  grid-column: 3 / 4;
+}
+
+.actions span{
+  cursor: pointer;
+}
+
+.tag{
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #fff;
+  margin: 0px 2px;
+}
+
+.activate{
+  background-color: #59CEB3;
+}
+
+.remove{
+  background-color: #ED4963;
+}
+
+.location{
+  background-color: #449CE8;
+}

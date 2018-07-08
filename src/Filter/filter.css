@@ -1,0 +1,15 @@
+.filter{
+  margin-bottom: 10px;  
+}
+
+.filter span{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.filter input{
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+}

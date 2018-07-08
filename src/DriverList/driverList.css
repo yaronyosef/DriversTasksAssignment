@@ -1,0 +1,17 @@
+#driverList{
+  padding-right: 5px;
+  overflow: scroll;
+}
+
+#driverList .list {
+  border-bottom: 1px solid;
+}
+
+#driverList .header{
+  height: 30px;
+  margin-top: 15px;
+}
+
+#driverList .totalDrivers{
+  float: right;
+}
